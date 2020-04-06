@@ -46,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				181A918D243A2B9E0031324C /* JFCyclePageView */,
+				1844F771243B14190052CDC8 /* Support Files */,
 				181A918C243A2B9E0031324C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,19 +62,34 @@
 		181A918D243A2B9E0031324C /* JFCyclePageView */ = {
 			isa = PBXGroup;
 			children = (
+				1844F770243B13EF0052CDC8 /* JFCyclePageScrollView */,
 				181A918E243A2B9E0031324C /* AppDelegate.h */,
 				181A918F243A2B9E0031324C /* AppDelegate.m */,
 				181A9194243A2B9E0031324C /* ViewController.h */,
 				181A9195243A2B9E0031324C /* ViewController.m */,
+			);
+			path = JFCyclePageView;
+			sourceTree = "<group>";
+		};
+		1844F770243B13EF0052CDC8 /* JFCyclePageScrollView */ = {
+			isa = PBXGroup;
+			children = (
 				181A91A7243A302F0031324C /* JFCyclePageScrollView.h */,
 				181A91A8243A302F0031324C /* JFCyclePageScrollView.m */,
+			);
+			path = JFCyclePageScrollView;
+			sourceTree = "<group>";
+		};
+		1844F771243B14190052CDC8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
 				181A9197243A2B9E0031324C /* Main.storyboard */,
 				181A919A243A2B9F0031324C /* Assets.xcassets */,
 				181A919C243A2B9F0031324C /* LaunchScreen.storyboard */,
 				181A919F243A2B9F0031324C /* Info.plist */,
 				181A91A0243A2B9F0031324C /* main.m */,
 			);
-			path = JFCyclePageView;
+			path = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JFCyclePageView/Info.plist;
+				INFOPLIST_FILE = "Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JFCyclePageView/Info.plist;
+				INFOPLIST_FILE = "Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
