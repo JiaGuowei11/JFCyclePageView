@@ -1,5 +1,5 @@
 # JFCyclePageView
-无限动滚视图
+无限滚动视图
 
 使用方法：导入#import "JFCyclePageScrollView.h"头文件
 
