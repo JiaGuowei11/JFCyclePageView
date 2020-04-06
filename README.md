@@ -6,6 +6,7 @@
 JFCyclePageScrollView * cyclepageView = [[JFCyclePageScrollView alloc]init];
 
 [self.view addSubview:cyclepageView];
+
 [self.view addSubview:cyclepageView.pageControl];
 
 无限轮播图就添加完成了
